@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Download, ArrowDown } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
+import imgURL from '../../profile.jpg';
 
 export function HeroSection() {
   const { t } = useLanguage();
@@ -16,7 +17,7 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <ImageWithFallback
-              src="profile.jpg"
+              src={imgURL}
               alt="Professional workspace"
               className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-primary/10"
             />
