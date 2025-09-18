@@ -79,9 +79,8 @@ export function Header() {
           >
             {theme === 'light' ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
           </Button>
-          
+          <div className="hidden md:flex">
           <div className="w-px h-6 bg-border mx-1" />
-          
           {/* <Button variant="ghost" size="icon" asChild>
             <a href="mailto:john@example.com" aria-label="Email">
               <Mail className="h-4 w-4" />
@@ -97,6 +96,7 @@ export function Header() {
               <Linkedin className="h-4 w-4" />
             </a>
           </Button>
+            </div>
         </div>
       </div>
     </header>
