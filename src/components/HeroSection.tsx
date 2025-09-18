@@ -3,6 +3,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Download, ArrowDown } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import imgURL from '../../profile.jpg';
+import resumeURL from '../../resume.pdf';
 
 export function HeroSection() {
   const { t } = useLanguage();
@@ -35,10 +36,12 @@ export function HeroSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <a href={resumeURL} target="_blank" rel="noopener noreferrer" aria-label="Resume">
             <Button size="lg" className="gap-2">
               <Download className="h-4 w-4" />
               {t('hero.downloadCV')}
             </Button>
+            </a>
             <Button variant="outline" size="lg" onClick={scrollToNext}>
               {t('hero.contactMe')}
             </Button>
