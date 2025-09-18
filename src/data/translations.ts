@@ -326,7 +326,7 @@ export const translations = {
       events: "Événements"
     },
     hero: {
-      greeting: "Bonjour, je suis",
+      greeting: "Salut, moi c’est",
       title: "Ingénieur Logiciel",
       description: "Ingénieur logiciel polyvalent avec de l'expérience en Front-end, Back-end, IA et DevOps. J'aime relever des défis variés et construire des solutions efficaces et évolutives sur l'ensemble de la pile technologique.",
       downloadCV: "Télécharger le CV",
