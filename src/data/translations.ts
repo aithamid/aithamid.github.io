@@ -31,7 +31,7 @@ export const translations = {
           skills: ["Python", "Typescript", "Node.js", "Kubernetes", "Docker", "PostgreSQL", "Grafana", "React.js"]
         },
         {
-          title: "Research Intern",
+          title: "5G / AI Research Assistant",
           company: "ÉTS Montréal",
           location: "Montréal, QC",
           period: "2024",
@@ -340,7 +340,7 @@ export const translations = {
       achievements: "Réalisations :",
       jobs: [
         {
-          title: "Ingénieur développement logiciel",
+          title: "Ingénieur logiciel",
           company: "Université Gustave Eiffel",
           location: "Bordeaux, France",
           period: "2022 - 2025",
@@ -348,7 +348,7 @@ export const translations = {
           skills: ["Python", "Typescript", "Node.js", "Kubernetes", "Docker", "PostgreSQL", "Grafana", "React.js"]
         },
         {
-          title: "Stagiaire chercheur",
+          title: "Assistant de recherche 5G / IA",
           company: "ÉTS Montréal",
           location: "Montréal, QC",
           period: "2024",
